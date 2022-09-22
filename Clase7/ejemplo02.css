@@ -1,0 +1,44 @@
+.caja{
+ width: 400px;
+ height: 250px;
+ background-color: aqua;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 100px;
+ transition: all 0.5s ease;
+ cursor: pointer;
+ /* animation: rectangulo 2s ease; */
+}
+
+@keyframes rectangulo{
+ 15% {
+  background-color: red;
+  transform: scale(0.9);
+}
+ 35% {
+  background-color: yellow;
+  transform: scale(1.1);
+}
+ 50% {
+  background-color: orange;
+  transform: scale(0.9) rotate(-90deg);
+}
+ 65% {
+  background-color: blue;
+  transform: scale(1.1);
+}
+ 75% {
+  background-color: blueviolet;
+  transform: scale(0.9);
+}
+ 100% {
+  background-color: green;
+}
+}
+
+.caja:hover{
+ animation: rectangulo 2s ease;
+ animation-fill-mode: forwards;
+ animation-iteration-count: 5;
+}

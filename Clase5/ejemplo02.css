@@ -1,0 +1,15 @@
+/* font-family: 'Lato',
+sans-serif;
+font-family: 'Shadows Into Light',
+cursive; */
+
+h2{
+ color: red;
+ font-family: 'Lato', sans-serif;
+}
+
+p{
+ color: blue;
+ font-family: 'Shadows Into Light',cursive;
+ font-weight: 100;
+}

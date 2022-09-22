@@ -1,0 +1,31 @@
+.contenedor{
+ background-color: rgb(77, 74, 74);
+ width: 60%;
+ margin: 0 auto; /*primer valor arriba y abajo, segundo valor es derecha e izquierda*/
+ height: 500px; /*para entender ejemplo*/
+}
+
+.verde{
+ background-color: lightgreen;
+ width: 90%;
+ margin: 0 auto 20px; /*arriba - laterales - abajo*/
+ height: 150px;
+ /* margin-bottom: 20px; */
+}
+
+.celeste {
+ background-color: lightblue;
+ width: 90%;
+ margin: 0 auto 20px;
+ /*arriba - laterales - abajo*/
+ height: 150px;
+ /* margin-bottom: 20px; */
+}
+.amarillo {
+ background-color: yellow;
+ width: 90%;
+ margin: 0 auto 20px;
+ /*arriba - laterales - abajo*/
+ height: 150px;
+ /* margin-bottom: 20px; */
+}
