@@ -1,0 +1,38 @@
+h3{
+ color: white;
+ margin: 0;
+ padding: 0;
+}
+
+span{
+ color:white;
+}
+#imag1{
+ background-color: white;
+ height: 300px;
+ width: 300px;
+ background-image: url(../img/lineablanca.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 50%;
+ position: relative;
+ align-content: center;
+}
+
+.imagenes1{
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+.container{
+ display: flex;
+ border:10px solid black;
+ border-radius: 50px;
+}
+
+img{
+ max-width: 300px;
+ max-height: 300px;
+ border: 10px solid black;
+ border-radius: 50%;
+}

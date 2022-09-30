@@ -1,0 +1,18 @@
+.imagenes{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.imagen{
+ border: 1px solid rgb(49, 47, 47);
+ margin: 5px;
+ width: 18%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.imagenes .imagen img{
+ width: 95%;
+ height: 95%;
+}

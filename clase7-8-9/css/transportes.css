@@ -71,13 +71,22 @@ h2{
 .bienvenidos{
   width: 75%;
   padding-right: 16px;
-
+ animation: aparecer 1s ease;
 }
 
 .testimonios{
   width: 25%;
+  animation: aparecer 1s ease;
 }
 
+@keyframes aparecer{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.persona:hover{
+  scale: 1.1;
+}
 .columnas{
   display: flex;
 }
@@ -235,4 +244,14 @@ h2{
 
 .formulario input[type="submit"]:hover{
   background-color: #2e64a1;
+}
+
+.datos ul li span{
+  font-size: 12px;
+}
+
+.datos ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
 }

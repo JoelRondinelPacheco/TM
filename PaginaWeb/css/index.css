@@ -1,0 +1,109 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+}
+
+.cabezal{
+  background-color: rgba(230, 76, 163, 0.124);
+}
+
+.logo{
+ padding:20px 20px;
+}
+
+.holder{
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+nav ul{
+ margin:0;
+ padding:0;
+ display: flex;
+ list-style: none;
+}
+
+nav ul li{
+ flex-grow: 1;
+}
+
+nav ul li a{
+ color: white;
+ text-decoration: none;
+ padding-bottom: 5px;
+ display: block;
+ text-align: center;
+ font-size:20px;
+ font-weight: 200;
+}
+
+nav ul li a.activo {
+ color:yellow;
+ border-top: solid;
+ border-width: 3px;
+ font-weight: 400;
+}
+
+nav ul li a:hover{
+ color: rgb(241, 241, 121);
+}
+
+/* HASTA ACA EL HEADER Y NAVEGADOR */
+.fondo {
+  background: linear-gradient(rgb(5, 7, 12, 0.75), rgba(6, 18, 49, 0.7)),
+    url(../img/electronica.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+.inicio{
+ max-width: 960px;
+ margin: 0 auto;
+ display:flex;
+ gap: 25px;
+}
+
+.quienessomos{
+ width:40%;
+ animation-name: aparecer;
+ animation-duration: 3s;
+}
+.ubicacion{
+ width: 60%;
+  animation-name: aparecer;
+    animation-duration: 3s;
+}
+
+h2{
+  color:white;
+ font-size: 30px;
+ margin:0;
+ padding-top: 10px;
+}
+
+
+p{
+  color:rgb(235, 235, 146);
+ font-size:20px;
+margin:0;
+ text-align: justify;
+}
+
+footer{
+  background-color: #ccc;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+  bottom: 0;
+}
+
+@keyframes aparecer {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
